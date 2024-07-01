@@ -49,4 +49,13 @@ public class DepartmentServiceImpl implements DepartmentService {
         }
         return "Department does not exist for id = " + id;
     }
+
+    @Override
+    public Department getDepartmentById(Integer id) {
+        Optional<Department> dept = departmentRepository.findById(id);
+        if (dept.isPresent()) {
+            return dept.get();
+        }
+        return null;
+    }
 }

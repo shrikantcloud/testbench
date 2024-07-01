@@ -15,4 +15,6 @@ public interface DepartmentService {
 
     public String deleteDepartmentById(Integer id);
 
+    public Department getDepartmentById(Integer id);
+
 }
