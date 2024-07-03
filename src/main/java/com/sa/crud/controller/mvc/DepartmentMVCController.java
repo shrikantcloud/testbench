@@ -1,4 +1,4 @@
-package com.sa.crud.controller;
+package com.sa.crud.controller.mvc;
 
 import com.sa.crud.model.Department;
 import com.sa.crud.service.DepartmentService;

@@ -1,4 +1,4 @@
-package com.sa.crud.restcontroller;
+package com.sa.crud.controller.rest;
 
 import com.sa.crud.model.SalaryGrade;
 import com.sa.crud.service.SalaryGradeService;
